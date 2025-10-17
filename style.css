@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:blanchedalmond;
+    color:black;
+}
+
+header {
+    background-color:bisque;
+    color:black;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:burlywood;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.profil {
+    text-align: center;
+    padding: 40px 20px;
+    background-color:beige;
+}
+
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid;
+    margin-bottom: 15px;
+}
+
+.profil h2 {
+    color:burlywood;
+}
+
+.organisasi {
+    padding: 30px 20px;
+}
+
+.organisasi h2 {
+    color:darksalmon;
+    text-align: center;
+}
+
+.organisasi ul {
+    max-width: 700px;
+    margin: 20px auto;
+    padding-left: 20px;
+    line-height: 1.7;
+}
+
+.organisasi li {
+    margin-bottom: 15px;
+}
+
+.organisasi {
+    padding: 30px 20px;
+}
+
+.kontak {
+    background-color:beige;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.kontak h2 {
+    color:darksalmon;
+}
+
+
+footer {
+    background-color:antiquewhite;
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
